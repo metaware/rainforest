@@ -1,36 +1,25 @@
 'use strict';
 
-var rainforest = require('../lib/rainforest.js');
+var rf = require('../lib/rainforest.js').rainforest;
+var assert = require("assert");
 
-/*
-  ======== A Handy Little Nodeunit Reference ========
-  https://github.com/caolan/nodeunit
+describe('rainforest', function() {
 
-  Test methods:
-    test.expect(numAssertions)
-    test.done()
-  Test assertions:
-    test.ok(value, [message])
-    test.equal(actual, expected, [message])
-    test.notEqual(actual, expected, [message])
-    test.deepEqual(actual, expected, [message])
-    test.notDeepEqual(actual, expected, [message])
-    test.strictEqual(actual, expected, [message])
-    test.notStrictEqual(actual, expected, [message])
-    test.throws(block, [error], [message])
-    test.doesNotThrow(block, [error], [message])
-    test.ifError(value)
-*/
+  describe('#tokenName()', function() {
 
-exports['awesome'] = {
-  setUp: function(done) {
-    // setup here
-    done();
-  },
-  'no args': function(test) {
-    test.expect(1);
-    // tests here
-    test.equal(rainforest.awesome(), 'awesome', 'should be awesome.');
-    test.done();
-  },
-};
+    it('should return token key', function() {
+      rf.start('--token token-key');
+      assert.equal(rf.tokenName(), '--token token-key');
+    });
+
+  });
+
+  describe('#baseUrl', function() {
+
+    it('should point to the rainforestqa server', function() {
+      assert.equal(rf.baseUrl, 'https://app.rainforestqa.com/api/1/');
+    });
+
+  });
+
+});
