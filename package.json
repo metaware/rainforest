@@ -34,7 +34,8 @@
     "grunt-contrib-watch": "~0.5.3",
     "grunt": "~0.4.2",
     "mocha": ">= 1.15.0",
-    "grunt-mocha-test": "~0.8.1"
+    "grunt-mocha-test": "~0.8.1",
+    "grunt-cli": "~0.1.11"
   },
   "keywords": []
 }
