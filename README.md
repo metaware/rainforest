@@ -5,10 +5,6 @@ Rainforest CLI in NodeJS
 ## Getting Started
 Install the module with: `npm install rainforest`
 
-```javascript
-var rainforest = require('rainforest');
-rainforest.awesome(); // "awesome"
-```
 
 ## Documentation
 _(Coming soon)_
