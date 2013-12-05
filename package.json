@@ -25,8 +25,19 @@
   "engines": {
     "node": ">= 0.8.0"
   },
+  "preferGlobal": "true",
+  "bin": {
+    "rainforest": "lib/rainforest.js"
+  },
   "scripts": {
     "test": "grunt mochaTest"
+  },
+  "dependencies": {
+    "path-extra": "0.1.1",
+    "request": "~2.27.0",
+    "commander": "~2.1.0",
+    "prompt": "0.2.11",
+    "needle": "0.6.3"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.6.4",
@@ -35,7 +46,9 @@
     "grunt": "~0.4.2",
     "mocha": ">= 1.15.0",
     "grunt-mocha-test": "~0.8.1",
-    "grunt-cli": "~0.1.11"
+    "grunt-cli": "~0.1.11",
+    "chai": "~1.8.1",
+    "sinon": "~1.7.3"
   },
   "keywords": []
 }

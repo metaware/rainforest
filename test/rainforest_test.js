@@ -1,25 +1,14 @@
 'use strict';
 
 var rf = require('../lib/rainforest.js').rainforest;
-var assert = require("assert");
+var expect = require('chai').expect;
+var assert = require('chai').assert;
+var sinon = require('sinon');
 
 describe('rainforest', function() {
 
-  describe('#tokenName()', function() {
-
-    it('should return token key', function() {
-      rf.start('--token token-key');
-      assert.equal(rf.tokenName(), '--token token-key');
-    });
-
-  });
-
-  describe('#baseUrl', function() {
-
-    it('should point to the rainforestqa server', function() {
-      assert.equal(rf.baseUrl, 'https://app.rainforestqa.com/api/1/');
-    });
-
-  });
+  it('should be defined', function() {
+    expect(Rainforest).to.exist;
+  })
 
 });
