@@ -21,15 +21,15 @@ describe('RainforestClient', function() {
     it('should run all the tests', function() {
       var spy = sinon.spy(RainforestClient, 'post');
       RainforestClient.runTests();
-      assert( spy.withArgs(RainforestClient.runAllUrl()).calledOnce );
+      assert( spy.withArgs(RainforestClient.runUrl()).calledOnce );
     });
 
   });
 
-  describe('#runAllUrl()', function() {
+  describe('#runUrl()', function() {
 
     it('should be as per the docs', function() {
-      expect(RainforestClient.runAllUrl()).to.be.equal(RainforestClient.baseUrl + 'runs.json');
+      expect(RainforestClient.runUrl()).to.be.equal(RainforestClient.baseUrl + 'runs.json');
     })
 
   });
@@ -49,11 +49,11 @@ describe('RainforestClient', function() {
 
       beforeEach(function() {
         sinon.spy(needle, 'post');
-        RainforestClient.post( RainforestClient.runAllUrl()) ;
+        RainforestClient.post( RainforestClient.runUrl()) ;
       });
 
       it('should delegate to needle with right params', function() {
-        assert(needle.post.calledWith( RainforestClient.runAllUrl() ));
+        assert(needle.post.calledWith( RainforestClient.runUrl() ));
       });
 
     });

@@ -69,6 +69,19 @@ describe('rainforest', function() {
       expect(RainforestClient.run.conflict).to.equal( 'abort' );
     });
 
+    describe('case when tests = all', function() {
+      
+      beforeEach(function() {
+        cmd = { tests: 'all' };
+        Rainforest.extractOptions(cmd);
+      });
+
+      it('should assign RainforestClient tests option to all', function() {
+        expect(RainforestClient.run.tests).to.equal('all');
+      });
+
+    });
+
   });
 
 });
