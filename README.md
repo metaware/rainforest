@@ -5,9 +5,10 @@ A command line interface to interact with RainforestQA.
 ## Installation
 
 ```
-$ npm install rainforest
+$ npm install -g rainforest
 ```
 
+**Make sure you install it globally so that the rainforest command is accessible from anywhere on your system**
 
 ## Examples
 
