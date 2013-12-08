@@ -1,0 +1,169 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish', './' ]
+2 info using npm@1.3.8
+3 info using node@v0.10.17
+4 verbose publish [ './' ]
+5 verbose cache add [ './', null ]
+6 verbose cache add name=undefined spec="./" args=["./",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: './',
+7 verbose parsed url   path: './',
+7 verbose parsed url   href: './' }
+8 silly lockFile 0ee6c175- ./
+9 verbose lock ./ /Users/jasdeep/.npm/0ee6c175-.lock
+10 verbose tar pack [ '/var/folders/vl/05262krn1vq44qmyw5lk0tjr0000gn/T/npm-9513-GxfQ_oTz/1386538009933-0.059426937252283096/tmp.tgz',
+10 verbose tar pack   './' ]
+11 verbose tarball /var/folders/vl/05262krn1vq44qmyw5lk0tjr0000gn/T/npm-9513-GxfQ_oTz/1386538009933-0.059426937252283096/tmp.tgz
+12 verbose folder ./
+13 silly lockFile 04cb2bca-tar tar://./
+14 verbose lock tar://./ /Users/jasdeep/.npm/04cb2bca-tar.lock
+15 silly lockFile e5cfdf97-933-0-059426937252283096-tmp-tgz tar:///var/folders/vl/05262krn1vq44qmyw5lk0tjr0000gn/T/npm-9513-GxfQ_oTz/1386538009933-0.059426937252283096/tmp.tgz
+16 verbose lock tar:///var/folders/vl/05262krn1vq44qmyw5lk0tjr0000gn/T/npm-9513-GxfQ_oTz/1386538009933-0.059426937252283096/tmp.tgz /Users/jasdeep/.npm/e5cfdf97-933-0-059426937252283096-tmp-tgz.lock
+17 silly lockFile 04cb2bca-tar tar://./
+18 silly lockFile 04cb2bca-tar tar://./
+19 silly lockFile e5cfdf97-933-0-059426937252283096-tmp-tgz tar:///var/folders/vl/05262krn1vq44qmyw5lk0tjr0000gn/T/npm-9513-GxfQ_oTz/1386538009933-0.059426937252283096/tmp.tgz
+20 silly lockFile e5cfdf97-933-0-059426937252283096-tmp-tgz tar:///var/folders/vl/05262krn1vq44qmyw5lk0tjr0000gn/T/npm-9513-GxfQ_oTz/1386538009933-0.059426937252283096/tmp.tgz
+21 verbose tar unpack /var/folders/vl/05262krn1vq44qmyw5lk0tjr0000gn/T/npm-9513-GxfQ_oTz/1386538009933-0.059426937252283096/tmp.tgz
+22 silly lockFile d04d7ffc-933-0-059426937252283096-package tar:///var/folders/vl/05262krn1vq44qmyw5lk0tjr0000gn/T/npm-9513-GxfQ_oTz/1386538009933-0.059426937252283096/package
+23 verbose lock tar:///var/folders/vl/05262krn1vq44qmyw5lk0tjr0000gn/T/npm-9513-GxfQ_oTz/1386538009933-0.059426937252283096/package /Users/jasdeep/.npm/d04d7ffc-933-0-059426937252283096-package.lock
+24 silly lockFile e5cfdf97-933-0-059426937252283096-tmp-tgz tar:///var/folders/vl/05262krn1vq44qmyw5lk0tjr0000gn/T/npm-9513-GxfQ_oTz/1386538009933-0.059426937252283096/tmp.tgz
+25 verbose lock tar:///var/folders/vl/05262krn1vq44qmyw5lk0tjr0000gn/T/npm-9513-GxfQ_oTz/1386538009933-0.059426937252283096/tmp.tgz /Users/jasdeep/.npm/e5cfdf97-933-0-059426937252283096-tmp-tgz.lock
+26 silly gunzTarPerm modes [ '755', '644' ]
+27 silly gunzTarPerm extractEntry package.json
+28 silly gunzTarPerm extractEntry .npmignore
+29 silly gunzTarPerm extractEntry README.md
+30 silly gunzTarPerm extractEntry Gruntfile.js
+31 silly gunzTarPerm extractEntry .jshintrc
+32 silly gunzTarPerm extractEntry .travis.yml
+33 silly gunzTarPerm extractEntry LICENSE-MIT
+34 silly gunzTarPerm extractEntry lib/cli.js
+35 silly gunzTarPerm extractEntry lib/rainforest.js
+36 silly gunzTarPerm extractEntry lib/rainforest_client.js
+37 silly gunzTarPerm extractEntry test/rainforest_client_test.js
+38 silly gunzTarPerm extractEntry test/rainforest_test.js
+39 silly lockFile d04d7ffc-933-0-059426937252283096-package tar:///var/folders/vl/05262krn1vq44qmyw5lk0tjr0000gn/T/npm-9513-GxfQ_oTz/1386538009933-0.059426937252283096/package
+40 silly lockFile d04d7ffc-933-0-059426937252283096-package tar:///var/folders/vl/05262krn1vq44qmyw5lk0tjr0000gn/T/npm-9513-GxfQ_oTz/1386538009933-0.059426937252283096/package
+41 silly lockFile e5cfdf97-933-0-059426937252283096-tmp-tgz tar:///var/folders/vl/05262krn1vq44qmyw5lk0tjr0000gn/T/npm-9513-GxfQ_oTz/1386538009933-0.059426937252283096/tmp.tgz
+42 silly lockFile e5cfdf97-933-0-059426937252283096-tmp-tgz tar:///var/folders/vl/05262krn1vq44qmyw5lk0tjr0000gn/T/npm-9513-GxfQ_oTz/1386538009933-0.059426937252283096/tmp.tgz
+43 verbose tar pack [ '/Users/jasdeep/.npm/rainforest/0.1.0/package.tgz',
+43 verbose tar pack   '/var/folders/vl/05262krn1vq44qmyw5lk0tjr0000gn/T/npm-9513-GxfQ_oTz/1386538009933-0.059426937252283096/package' ]
+44 verbose tarball /Users/jasdeep/.npm/rainforest/0.1.0/package.tgz
+45 verbose folder /var/folders/vl/05262krn1vq44qmyw5lk0tjr0000gn/T/npm-9513-GxfQ_oTz/1386538009933-0.059426937252283096/package
+46 silly lockFile d04d7ffc-933-0-059426937252283096-package tar:///var/folders/vl/05262krn1vq44qmyw5lk0tjr0000gn/T/npm-9513-GxfQ_oTz/1386538009933-0.059426937252283096/package
+47 verbose lock tar:///var/folders/vl/05262krn1vq44qmyw5lk0tjr0000gn/T/npm-9513-GxfQ_oTz/1386538009933-0.059426937252283096/package /Users/jasdeep/.npm/d04d7ffc-933-0-059426937252283096-package.lock
+48 silly lockFile e1714348-npm-rainforest-0-1-0-package-tgz tar:///Users/jasdeep/.npm/rainforest/0.1.0/package.tgz
+49 verbose lock tar:///Users/jasdeep/.npm/rainforest/0.1.0/package.tgz /Users/jasdeep/.npm/e1714348-npm-rainforest-0-1-0-package-tgz.lock
+50 silly lockFile d04d7ffc-933-0-059426937252283096-package tar:///var/folders/vl/05262krn1vq44qmyw5lk0tjr0000gn/T/npm-9513-GxfQ_oTz/1386538009933-0.059426937252283096/package
+51 silly lockFile d04d7ffc-933-0-059426937252283096-package tar:///var/folders/vl/05262krn1vq44qmyw5lk0tjr0000gn/T/npm-9513-GxfQ_oTz/1386538009933-0.059426937252283096/package
+52 silly lockFile e1714348-npm-rainforest-0-1-0-package-tgz tar:///Users/jasdeep/.npm/rainforest/0.1.0/package.tgz
+53 silly lockFile e1714348-npm-rainforest-0-1-0-package-tgz tar:///Users/jasdeep/.npm/rainforest/0.1.0/package.tgz
+54 silly lockFile 111e7bb2-eep-npm-rainforest-0-1-0-package /Users/jasdeep/.npm/rainforest/0.1.0/package
+55 verbose lock /Users/jasdeep/.npm/rainforest/0.1.0/package /Users/jasdeep/.npm/111e7bb2-eep-npm-rainforest-0-1-0-package.lock
+56 silly lockFile 111e7bb2-eep-npm-rainforest-0-1-0-package /Users/jasdeep/.npm/rainforest/0.1.0/package
+57 silly lockFile 111e7bb2-eep-npm-rainforest-0-1-0-package /Users/jasdeep/.npm/rainforest/0.1.0/package
+58 verbose tar unpack /Users/jasdeep/.npm/rainforest/0.1.0/package.tgz
+59 silly lockFile e4721538-eep-npm-rainforest-0-1-0-package tar:///Users/jasdeep/.npm/rainforest/0.1.0/package
+60 verbose lock tar:///Users/jasdeep/.npm/rainforest/0.1.0/package /Users/jasdeep/.npm/e4721538-eep-npm-rainforest-0-1-0-package.lock
+61 silly lockFile e1714348-npm-rainforest-0-1-0-package-tgz tar:///Users/jasdeep/.npm/rainforest/0.1.0/package.tgz
+62 verbose lock tar:///Users/jasdeep/.npm/rainforest/0.1.0/package.tgz /Users/jasdeep/.npm/e1714348-npm-rainforest-0-1-0-package-tgz.lock
+63 silly gunzTarPerm modes [ '755', '644' ]
+64 silly gunzTarPerm extractEntry package.json
+65 silly gunzTarPerm extractEntry .npmignore
+66 silly gunzTarPerm extractEntry README.md
+67 silly gunzTarPerm extractEntry Gruntfile.js
+68 silly gunzTarPerm extractEntry .jshintrc
+69 silly gunzTarPerm extractEntry .travis.yml
+70 silly gunzTarPerm extractEntry LICENSE-MIT
+71 silly gunzTarPerm extractEntry lib/cli.js
+72 silly gunzTarPerm extractEntry lib/rainforest.js
+73 silly gunzTarPerm extractEntry lib/rainforest_client.js
+74 silly gunzTarPerm extractEntry test/rainforest_client_test.js
+75 silly gunzTarPerm extractEntry test/rainforest_test.js
+76 silly lockFile e4721538-eep-npm-rainforest-0-1-0-package tar:///Users/jasdeep/.npm/rainforest/0.1.0/package
+77 silly lockFile e4721538-eep-npm-rainforest-0-1-0-package tar:///Users/jasdeep/.npm/rainforest/0.1.0/package
+78 silly lockFile e1714348-npm-rainforest-0-1-0-package-tgz tar:///Users/jasdeep/.npm/rainforest/0.1.0/package.tgz
+79 silly lockFile e1714348-npm-rainforest-0-1-0-package-tgz tar:///Users/jasdeep/.npm/rainforest/0.1.0/package.tgz
+80 verbose chmod /Users/jasdeep/.npm/rainforest/0.1.0/package.tgz 644
+81 verbose chown /Users/jasdeep/.npm/rainforest/0.1.0/package.tgz [ 501, 20 ]
+82 silly lockFile 0ee6c175- ./
+83 silly lockFile 0ee6c175- ./
+84 silly publish { name: 'rainforest',
+84 silly publish   description: 'Rainforest CLI NodeJS',
+84 silly publish   version: '0.1.0',
+84 silly publish   homepage: 'https://github.com/jasdeepsingh/rainforest',
+84 silly publish   author:
+84 silly publish    { name: 'Jasdeep Singh',
+84 silly publish      email: 'narang.jasdeep@gmail.com',
+84 silly publish      url: 'http://jasdeep.ca' },
+84 silly publish   repository:
+84 silly publish    { type: 'git',
+84 silly publish      url: 'git://github.com/jasdeepsingh/rainforest.git' },
+84 silly publish   bugs: { url: 'https://github.com/jasdeepsingh/rainforest/issues' },
+84 silly publish   licenses:
+84 silly publish    [ { type: 'MIT',
+84 silly publish        url: 'https://github.com/jasdeepsingh/rainforest/blob/master/LICENSE-MIT' } ],
+84 silly publish   main: 'lib/rainforest',
+84 silly publish   engines: { node: '>= 0.8.0' },
+84 silly publish   preferGlobal: 'true',
+84 silly publish   bin: { rainforest: 'lib/cli.js' },
+84 silly publish   scripts: { test: 'grunt mochaTest' },
+84 silly publish   dependencies:
+84 silly publish    { 'path-extra': '0.1.1',
+84 silly publish      request: '~2.27.0',
+84 silly publish      commander: '~2.1.0',
+84 silly publish      prompt: '0.2.11',
+84 silly publish      needle: '0.6.3',
+84 silly publish      pace: '0.0.4',
+84 silly publish      colors: '0.6.2',
+84 silly publish      progress: '~1.1.2' },
+84 silly publish   devDependencies:
+84 silly publish    { 'grunt-contrib-jshint': '~0.6.4',
+84 silly publish      'grunt-contrib-nodeunit': '~0.2.0',
+84 silly publish      'grunt-contrib-watch': '~0.5.3',
+84 silly publish      grunt: '~0.4.2',
+84 silly publish      mocha: '>= 1.15.0',
+84 silly publish      'grunt-mocha-test': '~0.8.1',
+84 silly publish      'grunt-cli': '~0.1.11',
+84 silly publish      chai: '~1.8.1',
+84 silly publish      sinon: '~1.7.3' },
+84 silly publish   keywords: [],
+84 silly publish   readme: '# rainforest [![Build Status](https://secure.travis-ci.org/jasdeepsingh/rainforest.png?branch=master)](http://travis-ci.org/jasdeepsingh/rainforest) [![Code Climate](https://codeclimate.com/github/jasdeepsingh/rainforest.png)](https://codeclimate.com/github/jasdeepsingh/rainforest)\n\nA command line interface to interact with RainforestQA.\n\n## Installation\n\n```\n$ npm install -g rainforest\n```\n\n**Make sure you install it globally so that the rainforest command is accessible from anywhere on your system**\n\n## Examples\n\nTo use the cli client, you\'ll need your API token from a test settings page from inside [Rainforest](https://app.rainforestqa.com/).\n\nRun all of your tests\n\n    rainforest run --all --token YOUR_TOKEN_HERE\n\nRun tests with test ids `123`, `345`\n\n    rainforest run --tests 123,345 --token YOUR_TOKEN_HERE \n\nRun all tests with tags `tag1`, `tag2`, `tag3` \n\n    rainforest run --tags tag1,tag2,tag3 --token YOUR_TOKEN_HERE \n\nRun all tests with tag `tag1` and on browsers `chrome` and `safari`\n\n    rainforest run --tags tag1 --browsers chrome,safari --token YOUR_TOKEN_HERE \n\nRun all tests with tag `tag1` and also specify a webhook where Rainforest can POST a notification back\n\n    rainforest run --tags tag1 --webhook http://your-url.com/callback --token YOUR_TOKEN_HERE \n\nRun all tests with tag `tag1` and abort any previous runs for this test suite\n\n    rainforest run --tags tag1 --conflict abort --token YOUR_TOKEN_HERE \n\n## Documentation\n\n```\n  Usage: rainforest run [options]\n\n  Options:\n\n    -h, --help                 output usage information\n    -a, --all                  Run All Tests\n    -t, --tags <tags>          Specify test tags you want to use\n    -b, --browsers <browsers>  Specify which browsers you want to test against\n    -x, --tests <tests>        Specify comma seperated test IDs to execute\n    -w, --webhook <url>        Specify if you would like to use a webhook URL\n    -c, --conflict <conflict>  Specify if you would like to abort previously running tests\n    --token <api_token>        Assign your API token for this command\n```\n\n## Contributing\nIn lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).\n\n**You get extra attention, if your PR includes specs/tests.**\n\n1. Fork it\n2. Create your feature branch (`git checkout -b my-new-feature`)\n3. Commit your changes (`git commit -am \'Add some feature\'`)\n4. Push to the branch (`git push origin my-new-feature`)\n5. Create new Pull Request\n\n\n## License\nCopyright (c) 2013 Jasdeep Singh  \nLicensed under the MIT license.\n',
+84 silly publish   readmeFilename: 'README.md',
+84 silly publish   _id: 'rainforest@0.1.0',
+84 silly publish   dist: { shasum: '66777d02c7cb4a9f4e8bc2bbc8113cfb92a59f39' },
+84 silly publish   _from: './' }
+85 verbose url raw rainforest
+86 verbose url resolving [ 'https://registry.npmjs.org/', './rainforest' ]
+87 verbose url resolved https://registry.npmjs.org/rainforest
+88 info trying registry request attempt 1 at 16:26:50
+89 http PUT https://registry.npmjs.org/rainforest
+90 http 409 https://registry.npmjs.org/rainforest
+91 verbose url raw rainforest
+92 verbose url resolving [ 'https://registry.npmjs.org/', './rainforest' ]
+93 verbose url resolved https://registry.npmjs.org/rainforest
+94 info trying registry request attempt 1 at 16:26:50
+95 http GET https://registry.npmjs.org/rainforest
+96 http 200 https://registry.npmjs.org/rainforest
+97 error publish fail Cannot publish over existing version.
+97 error publish fail Update the 'version' field in package.json and try again.
+97 error publish fail
+97 error publish fail If the previous version was published in error, see:
+97 error publish fail     npm help unpublish
+97 error publish fail
+97 error publish fail To automatically increment version numbers, see:
+97 error publish fail     npm help version
+98 error System Darwin 13.0.0
+99 error command "node" "/usr/local/bin/npm" "publish" "./"
+100 error cwd /Users/jasdeep/personal/rainforest
+101 error node -v v0.10.17
+102 error npm -v 1.3.8
+103 error code EPUBLISHCONFLICT
+104 verbose exit [ 1, true ]
