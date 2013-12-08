@@ -72,7 +72,7 @@ describe('rainforest', function() {
     describe('case when tests = all', function() {
       
       beforeEach(function() {
-        cmd = { tests: 'all' };
+        cmd = { all: true };
         Rainforest.extractOptions(cmd);
       });
 
