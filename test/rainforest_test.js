@@ -72,11 +72,18 @@ describe('rainforest', function() {
     describe('case when tests = all', function() {
       
       beforeEach(function() {
-        cmd = { all: true };
+        cmd = { 
+          all: true,
+          tests: [1,2,3]
+        };
         Rainforest.extractOptions(cmd);
       });
 
       it('should assign RainforestClient tests option to all', function() {
+        expect(RainforestClient.run.tests).to.equal('all');
+      });
+
+      it('should assign RainforestClient tests option to all overriding ids', function() {
         expect(RainforestClient.run.tests).to.equal('all');
       });
 
