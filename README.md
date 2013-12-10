@@ -60,11 +60,17 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 **You get extra attention, if your PR includes specs/tests.**
 
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+1. Fork or clone the project.
+2. Create your feature branch (`$ git checkout -b my-new-feature`)
+3. Install the dependencies by doing: `$ npm install` in the project directory.
+4. Run the specs runner/project watcher by doing `$ grunt` 
+    - Now, any time you change files, specs will run. Sort of like Guard for Ruby projects.
+5. Add your bug fixes or new feature code.
+    - New features should include new specs/tests. 
+    - Bug fixes should ideally include exposing specs/tests.
+6. Commit your changes (`$ git commit -am 'Add some feature'`)
+7. Push to the branch (`$ git push origin my-new-feature`)
+8. Open your Pull Request!
 
 
 ## License
