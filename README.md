@@ -12,7 +12,7 @@ $ npm install -g rainforest
 
 ## Examples
 
-To use the cli client, you'll need your API token from a test settings page from inside [Rainforest](https://app.rainforestqa.com/).
+To use the CLI client, you'll need your API token from a test settings page from inside [Rainforest](https://app.rainforestqa.com/).
 
 Run all of your tests
 
