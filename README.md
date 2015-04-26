@@ -1,4 +1,4 @@
-# rainforest [![Build Status](https://secure.travis-ci.org/jasdeepsingh/rainforest.png?branch=master)](http://travis-ci.org/jasdeepsingh/rainforest) [![Code Climate](https://codeclimate.com/github/jasdeepsingh/rainforest.png)](https://codeclimate.com/github/jasdeepsingh/rainforest)
+# rainforest [![Build Status](https://travis-ci.org/metaware/rainforest.svg?branch=master)](https://travis-ci.org/metaware/rainforest) [![Code Climate](https://codeclimate.com/github/jasdeepsingh/rainforest.png)](https://codeclimate.com/github/jasdeepsingh/rainforest)
 
 A command line interface to interact with RainforestQA.
 
@@ -12,7 +12,7 @@ $ npm install -g rainforest
 
 ## Examples
 
-To use the cli client, you'll need your API token from a test settings page from inside [Rainforest](https://app.rainforestqa.com/).
+To use the CLI client, you'll need your API token from a test settings page from inside [Rainforest](https://app.rainforestqa.com/).
 
 Run all of your tests
 
