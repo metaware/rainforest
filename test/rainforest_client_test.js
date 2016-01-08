@@ -8,6 +8,10 @@ var sinon = require('sinon');
 
 describe('RainforestClient', function() {
 
+  beforeEach(function() {
+    RainforestClient.token = 'my-token'
+  })
+
   it('should be defined', function() {
     expect(RainforestClient).to.exist;
   });
